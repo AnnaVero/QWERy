@@ -1,0 +1,16 @@
+.about-tour {
+	position: relative;
+}
+
+.about__inner {
+	grid-template-columns: 598px 632px;
+	grid-gap: 232px;
+	align-items: center;
+}
+
+.about__tour-inner {
+	position: absolute;
+	left: 0;
+	top: -142px;
+	z-index: 1000;
+}

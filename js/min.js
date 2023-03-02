@@ -1,0 +1,1 @@
+const anchors=document.querySelectorAll('a[href*="#"]');for(let anchor of anchors)anchor.addEventListener("click",function(e){e.preventDefault();let r=anchor.getAttribute("href");document.querySelector(""+r).scrollIntoView({behavior:"smooth",block:"start"})});

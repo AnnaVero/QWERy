@@ -1,0 +1,49 @@
+.header {
+	padding-top: 30px;
+	position: absolute;
+	left: 0;
+	top: 10%;
+	z-index: 1;
+	width: 100%;
+}
+
+.logo {
+	color: var(--white-color);
+	font-size: 24px;
+}
+
+.header__search {
+	cursor: pointer;
+}
+
+.header__search:hover .icon {
+	fill: var(--golden-color);
+}
+
+.header__search:hover .header__search-link {
+	color: var(--golden-color);
+}
+
+.header__search-link {
+	transition: color .2s linear;
+}
+
+.icon-search {
+	margin-right: 14px;
+}
+
+.nav {
+	flex-basis: 35%;
+}
+
+.nav__link {
+	transition: color .2s linear;
+}
+
+.nav__link:hover {
+	color: var(--golden-color);
+}
+
+.nav__link:active {
+	color: var(--golden-color);
+}

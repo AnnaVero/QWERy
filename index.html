@@ -2,31 +2,313 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>QWERy</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
+   <!-- Начало: Данный блок удалять нельзя -->
+   <div class="maketforfigma">
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
             <img src="img/logo.png">
-        </a>
-        <div>
+      </a>
+      <div>
             <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+               Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
             </p>
             <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
+               При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
             </p>
-        </div>
-    </div>
-    <!-- Конец -->
+      </div>
+   </div>
+   <!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
+   <div class="main">
+		<body>
+			<div class="container-main">
+					<header class="header">
+							<div class="container">
+								<div class="header-nav flex flex-inner-style">
 
-</body>
+										<span class="logo">QWERy</span>
+
+									<!-- Navigation -->
+
+									<nav id="nav" class="nav">
+										<ul class="nav__list flex flex-inner-style">
+											<li class="nav__item">
+												<a href="#" class="nav__link">Information</a>
+											</li>
+											<li class="nav__item">
+												<a href="#" class="nav__link">About us</a>
+											</li>
+											<li class="nav__item">
+												<a href="#" class="nav__link">Culture</a>
+											</li>
+										</ul>
+									</nav>
+
+									<div class="header__search flex flex-inner-style">
+										<svg class="icon icon-search">
+											<use xlink:href="sprite.svg#search"></use>
+										</svg>
+										<span class="header__search-link">Search</span>
+									</div>
+								</div> <!-- /.header__nav -->
+							</div> <!-- /.container -->
+					</header>
+
+				<main>
+
+					<!-- Hero -->
+
+					<section class="hero">
+						<div class="container">
+							<div class="hero__inner flex">
+
+								<div class="hero__sidebar flex">
+									<span class="hero__text">Follow us</span>
+									<ul class="hero__list">
+										<li class="hero__item">
+											<a href="#" class="hero__link">
+												<svg class="icon">
+													<use xlink:href="sprite.svg#ig"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="hero__item">
+											<a href="#" class="hero__link">
+												<svg class="icon">
+													<use xlink:href="sprite.svg#tw"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="hero__item">
+											<a href="#" class="hero__link">
+												<svg class="icon">
+													<use xlink:href="sprite.svg#fb"></use>
+												</svg>
+											</a>
+										</li>
+									</ul>
+								</div> <!-- /.hero__sidebar -->
+
+								<div class="hero__content">
+									<h2 class="hero__subtitle section-subtitle flex flex-inner-style">Explore the nature beauty</h2>
+									<h1 class="hero__title">Discover<br><span class="hero__title-400">Wonderful Indonesia</span></h1>
+
+									<div class="hero__down icon-move-down flex">
+										<a href="#down" class="link">Scroll down</a>
+											<svg class="hero__icon main-icon icon">
+												<use xlink:href="sprite.svg#arrow"></use>
+											</svg>
+									</div>
+								</div> <!-- /.hero__content -->
+							</div> <!-- /.hero__inner -->
+						</div> <!-- /.container -->
+					</section>
+
+					<!-- About -->
+
+					<div class="section-container">
+						<section class="about about-tour section-margin">
+								<div id="down" class="about__inner about__tour-inner grid">
+									<div class="about__img-wrapper img-wrapper">
+										<img class="about__img" src="img/about-tour/img-1.jpg" alt="Photo of Komodo">
+									</div>
+									<div class="about__content">
+										<h3 class="section-subtitle flex flex-inner-style">East Nusa Tenggara</h3>
+										<h2 class="section-title">Have you enjoyed your holiday?</h2>
+										<p class="section-text">You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
+										<div class="btn-link flex">
+											<a href="#" class="link">read more</a>
+											<svg class="main-icon icon icon-move">
+												<use xlink:href="sprite.svg#arrow-right"></use>
+											</svg>
+										</div>
+									</div> <!-- /.about__content -->
+								</div> <!-- /.about__inner -->
+						</section>
+
+						<!-- Slider -->
+
+						<section class="slider section-margin">
+							<div class="slider__controls flex flex-inner-style">
+								<div class="slider__btn" id="btnPrev">
+									<svg class="slider__icon main-icon icon">
+										<use xlink:href="sprite.svg#slider-left"></use>
+									</svg>
+								</div>
+								<div class="slider__btn" id="btnNext">
+									<svg class="slider__icon main-icon icon">
+										<use xlink:href="sprite.svg#slider-right"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="slider__inner" id="slider">
+								<div class="slider__wrap">
+									<div class="slider__img-wrapper">
+										<img src="img/slider/img-1.jpg" alt="Photo of Mount Semeru" class="slider__img">
+									</div>
+									<div class="slider__content flex">
+										<div class="slider__info">
+											<h3 class="slider__subtitle section-subtitle flex flex-inner-style">Bromo</h3>
+											<h2 class="section-title">Steady your steps, we will climb together!</h2>
+											<p class="section-text">Enjoying the vast expanse of the sea of sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
+											<div class="slider__btn-main btn-link flex">
+												<a href="#" class="link">read more</a>
+												<svg class="main-icon icon icon-move">
+													<use xlink:href="sprite.svg#arrow-right"></use>
+												</svg>
+											</div>
+										</div> <!-- /.slider__info -->
+									</div> <!-- /.slider__content -->
+								</div> <!-- /.slider__wrap -->
+							</div> <!-- /.slider__inner -->
+						</section>
+
+						<!-- About -->
+
+							<section class="about section-margin">
+									<div class="about__inner about__culture-inner grid">
+										<div class="about__content">
+											<h3 class="section-subtitle flex flex-inner-style">Indonesian culture</h3>
+											<h2 class="section-title">Our culture here is very friendly to people</h2>
+											<p class="section-text">known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.</p>
+											<div class="btn-link flex">
+												<a href="#" class="link">read more</a>
+												<svg class="main-icon icon icon-move">
+													<use xlink:href="sprite.svg#arrow-right"></use>
+												</svg>
+											</div>
+										</div> <!-- /.about__content -->
+										<div class="about__img-wrapper img-wrapper">
+											<img class="about__img" src="img/about-culture/img-1.jpg" alt="Photo of Komodo">
+										</div>
+									</div> <!-- /.about__inner -->
+							</section>
+					</div> <!-- /.section-container -->
+				</main>
+
+				<footer class="footer footer-margin">
+						<div class="section-container">
+							<div class="footer__line flex flex-inner-style">
+								<span class="footer__logo logo">QWERy</span>
+								<div class="footer__btn-wrapper flex flex-inner-style">
+									<div class="footer__text section-text">Ready to explore?</div>
+									<button class="btn btn-reset">Get started</button>
+								</div>
+							</div> <!-- /.footer__line -->
+
+							<div class="footer__inner flex flex-inner-style">
+								<div class="footer__content">
+									<h4 class="footer__title section-title">Let's go on vacation, Make your day</h4>
+									<form action="signin" method="post" class="footer__form flex">
+										<input type="email" name="email" placeholder="Email address" class="footer__input">
+										<button class="btn btn-mini btn-reset">
+											<svg class="footer-icon icon">
+												<use xlink:href="sprite.svg#slider-right"></use>
+											</svg>
+										</button>
+									</form>
+								</div> <!-- /.footer__content -->
+
+								<nav class="footer__nav">
+									<ul class="footer__list flex flex-inner-style">
+										<li class="footer__item footer__item-title">
+											Services
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">Email Marketing</a>
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">Campaigns</a>
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">Branding</a>
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">Offline</a>
+										</li>
+									</ul>
+								</nav>
+
+								<nav class="footer__nav">
+									<ul class="footer__list flex flex-inner-style">
+										<li class="footer__item footer__item-title">
+											About
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">Our Story</a>
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">Benefits</a>
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">Team</a>
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">Careers</a>
+										</li>
+									</ul>
+								</nav>
+
+								<nav class="footer__nav">
+									<ul class="footer__list flex flex-inner-style">
+										<li class="footer__item footer__item-title">
+											Help
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">FAQs</a>
+										</li>
+										<li class="footer__item">
+											<a href="#" class="footer__link">Contact Us</a>
+										</li>
+									</ul>
+								</nav>
+							</div> <!-- /.footer__inner -->
+							<div class="footer__line-bottom flex flex-inner-style">
+								<div class="footer__wrap">
+									<a href="#" class="footer__text-low section-text">Terms & Conditions</a>
+									<a href="#" class="footer__text-low section-text">Privacy Policy</a>
+								</div>
+								<div class="footer__social">
+									<ul class="footer__list-social flex flex-inner-style">
+										<li class="footer__item-social">
+											<a href="#" class="footer__link-social">
+												<svg class="footer__icon icon">
+													<use xlink:href="sprite.svg#ig"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="footer__item-social">
+											<a href="#" class="footer__link-social">
+												<svg class="footer__icon icon">
+													<use xlink:href="sprite.svg#tw"></use>
+												</svg>
+											</a>
+										</li>
+										<li class="footer__item-social">
+											<a href="#" class="footer__link-social">
+												<svg class="footer__icon icon">
+													<use xlink:href="sprite.svg#fb"></use>
+												</svg>
+											</a>
+										</li>
+									</ul>
+								</div> <!-- /.footer__social -->
+							</div> <!-- /.footer__line-bottom -->
+							<span class="copyright flex">Copyright 2021 QWERy</span>
+						</div> <!-- /.section-container -->
+				</footer>
+			</div> <!-- /.container-main -->
+
+			<script async src="js/min.js"></script>
+			<script async src="js/main.js"></script>
+		</body>
+   </div>
 </html>
